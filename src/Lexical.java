@@ -1,5 +1,6 @@
+import java.util.*;
 
-    public class Lexical {
+public class Lexical {
 
     // ====== CONFIG ======
     private static final Set<String> KEYWORDS =
@@ -164,6 +165,4 @@
             this.line = line;
         }
     }
-}
-    
 }
